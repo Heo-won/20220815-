@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  position: relative;
+}
+
+.greensock .intro {
+  height: 100vw;
+  width: 100%;
+  color: white;
+  font: 7vw/1.8 "arial";
+  top: 0px;
+}
+
+.greensock .intro .h1 {
+  position: absolute;
+  top: 10%;
+}
+
+.photo {
+  width: 150px;
+  height: 210px;
+  transform: rotate(180deg);
+}
+
+/*# sourceMappingURL=style.css.map */

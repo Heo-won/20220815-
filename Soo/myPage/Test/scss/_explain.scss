@@ -1,0 +1,82 @@
+#p7 .plusBtn {
+    position: absolute;
+    top: 25vw;
+    left: 45vw;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 30%;
+    color: white;
+    cursor: pointer;
+}
+
+#p7 .promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(93%, 5%);
+    width: 50vw;
+    height: 45vw;
+
+    & .swiper {
+        width: 420px;
+        height: 560px;
+    }
+
+    & .swiper-slide {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    & .swiper-slide:nth-child(1n) {
+        background-image: url("/Soo/myPage/photo/ch_red.png");
+        stroke: #fff;
+        color: red;
+    }
+
+    & .swiper-slide:nth-child(2n) {
+        background-image: url("/Soo/myPage/photo/ch_orange.png");
+    }
+
+    & .swiper-slide:nth-child(3n) {
+        background-image: url("/Soo/myPage/photo/ch_yellow.png");
+    }
+
+    & .swiper-slide:nth-child(4n) {
+        background-image: url("/Soo/myPage/photo/ch_green.png");
+    }
+
+    & .swiper-slide:nth-child(5n) {
+        background-image: url("/Soo/myPage/photo/ch_sky.png");
+    }
+
+    & .swiper-slide:nth-child(6n) {
+        background-image: url("/Soo/myPage/photo/ch_navy.png");
+    }
+
+    & .swiper-slide:nth-child(7n) {
+        background-image: url("/Soo/myPage/photo/ch_violet.png");
+    }
+
+    & .swiper-slide:nth-child(8n) {
+        background-image: url("/Soo/myPage/photo/ch_black.png");
+    }
+
+    & .swiper-slide .clicked::after {
+        content: url("/Soo/myPage/photo/point.png");
+        z-index: 10;
+    }
+
+    // & .swiper-slide:nth-child(9n) {
+    //   background-color: rgb(218, 12, 218);
+    // }
+
+    // & .swiper-slide:nth-child(10n) {
+    //   background-color: rgb(54, 94, 77);
+    // }
+}

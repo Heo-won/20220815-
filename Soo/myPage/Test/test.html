@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Space Monster</title>
+        <!-- GSAP -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+            integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+            integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- SWIPER     -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/249079f89b.js" crossorigin="anonymous"></script>
+        <script defer src="./test.js"></script>
+    </head>
+    <body>
+        <div class="box">
+            <section class="greensock">
+                <div class="intro">
+                    <div class="h1">안녕하세요</div>
+                    <div class="h2">지금부터</div>
+                    <div class="h3">탐험할</div>
+                    <div class="h4">행성은</div>
+                    <div class="h5">'우주 도깨비'가</div>
+                    <div class="h6">화나있는 곳입니다.</div>
+                </div>
+            </section>
+            <div class="contain">
+                <div class="btn">
+                    <a href="#p2" class="moveDown">Down</a>
+                    <a href="#p2" class="moveUp">UP</a>
+                </div>
+
+                <section class="pg" id="p1">
+                    <div class="cover cover1">
+                        <p class="first"></p>
+                    </div>
+                </section>
+
+                <section class="pg" id="p2">
+                    <div class="cover cover2">
+                        <p class="second"></p>
+                    </div>
+                </section>
+
+                <section class="pg" id="p3">
+                    <div class="cover cover3">
+                        <p class="third"></p>
+                    </div>
+                </section>
+
+                <section class="pg" id="p4">
+                    <div class="cover cover4">
+                        <p class="forth"></p>
+                    </div>
+                </section>
+
+                <section class="pg" id="p5">
+                    <div class="cover cover5">
+                        <p class="fifth"></p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="enter">
+                <section class="pg" id="p6">
+                    <div class="enterBtn">
+                        <a href="#p7">입장하시겠습니까?</a>
+                    </div>
+                </section>
+            </div>
+
+            <figure class="pg" id="p7">
+                <section class="player">
+                    <article class="on">
+                        <div class="inner">
+                            <div class="pic Red"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Orange"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Yellow"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Green"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Sky"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Navy"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Violet"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="inner">
+                            <div class="pic Black"></div>
+                            <div class="text"></div>
+                        </div>
+                    </article>
+                </section>
+
+                <nav class="btnPrev">
+                    <i class="fa-solid fa-reply"></i>
+                    <span>Left</span>
+                </nav>
+
+                <nav class="btnNext">
+                    <span>Right</span>
+                    <i class="fa-solid fa-share"></i>
+                </nav>
+
+                <div class="plus">
+                    <a href="#p7" class="plusBtn">PLUS</a>
+                </div>
+                <!-- Swiper -->
+                <div class="promotion">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">Red</div>
+                            <div class="swiper-slide">Orange</div>
+                            <div class="swiper-slide">Yellow</div>
+                            <div class="swiper-slide">Green</div>
+                            <div class="swiper-slide">Sky</div>
+                            <div class="swiper-slide">Navy</div>
+                            <div class="swiper-slide">Violet</div>
+                            <div class="swiper-slide">Black</div>
+                        </div>
+                    </div>
+                </div>
+            </figure>
+        </div>
+    </body>
+</html>
